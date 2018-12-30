@@ -173,7 +173,7 @@ public class Chat extends AppCompatActivity {
             item = new HashMap<String,String>();
             item.put( "line1", Message[MessageNum-2][0]);
             item.put( "line2", Message[MessageNum-2][1]);
-            list.add( item );
+            list.add( item) ;
             }
             lvchat.setSelection(MessageNum);
             }
